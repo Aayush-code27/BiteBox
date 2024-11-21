@@ -1,0 +1,76 @@
+@media only screen and (max-width: 767px) {
+    /* Styles for small devices (portrait phones, 600px and down) */
+    *{
+        margin:0px;
+        padding:0px;
+    }
+    .navbar{
+        width:100%;
+        height:80px;
+        background-color: black;
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: space-between;
+    
+    }
+    #logo{
+        color:red;
+        font-size: 50px;
+    
+    }
+    #shoppingcart{
+        font-size: 30px;
+        color:white;
+        position:absolute;
+        right:60px;     
+    }
+
+   #sidebar{
+    width:40px;
+    height:45px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    padding:8px;
+
+   }
+   hr{
+    width:40px;
+    height:4px;
+ 
+    background-color: white;
+    border-radius:8px;
+   }
+   .searchbar{
+    height:38px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+   input{
+    width:300px;
+    height:35px;
+    text-align: center;
+    background-color: black;
+   border-radius: 8px;
+   Border:none;
+   }
+  }
+  
+/* *{
+    margin:0px;
+    padding:0px;
+}
+.navbar{
+    width:100%;
+    background-color: black;
+
+
+}
+#logo{
+    color:red;
+    font-size: 50px;
+
+} */
