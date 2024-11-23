@@ -6,7 +6,7 @@
         font-family:'Trebuchet MS';
     }
     body{
-        background-color:rgb(226, 59, 59);
+        background-color:#DF8E7C;
     }
 
     .navbar{
@@ -26,24 +26,25 @@
     }
 
     #shoppingcart{
-        font-size: 30px;
-        color:white;
         position:absolute;
-        right:60px;     
+        top:12px;
+        right:40px;
+        top:20px;
+   
     }
 
    #sidebar{
-        width:35px;
+        width:33px;
         height:45px;
         display:flex;
         flex-direction:column;
         justify-content: space-evenly;
-        padding:8px;
-        margin-right:4px;
+        padding-right:7px;
+      
    }
 
    hr{
-        width:40px;
+        width:30px;
         height:3px;
         background-color: white;
         border-radius:8px;
@@ -57,21 +58,23 @@
    }
    
    input{
-        width:300px;
+        width:250px;
         height:35px;
         text-align: center;
         background-color: black;
         border-radius: 8px;
         Border:1px solid white;
+        color:white;
    }
-   buttom{
-        width:25px;
-        height:25px;
+   #searchbutton{
+        width:33px;
+        height:33px;
+        border-radius:50%;
+        border:2px solid white;
         margin-left:8px;
-        border-radius: 8px;
-        background-image: url("/image/search1.png");
-        background-size: cover;
-        border:none;       
+        display:flex;
+        align-items:center;
+        justify-content:center;
    }
 
    #images{
@@ -82,14 +85,61 @@
    }
 
 img{
-    border-radius: 8px;
+    border-radius: 12px;
 }
 #menubar{
     display:flex;
     justify-content: space-between;
     align-items: center;
     padding:8px;
+
 }
+
+a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Trebuchet MS';
+    font-weight: 800;
+    padding:5px;
+}
+.items{
+    height:120px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#explorebar{
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.deals{
+    width:100px;
+    height:100px;
+    border:2px solid black;
+    border-radius: 6px;
+}
+
+#Deals{
+    background-image:url("/image/deal.jpeg");
+    background-size: cover;
+    
+}
+
+#HotCrispy{
+    Background-image:url("image/hot&crispy.jfif");
+    background-size: cover;
+}
+
+#Vegfood{
+    background-image: url("image/vegfood1.jfif");
+    background-size: cover;
+}
+
+
 
   }
   
